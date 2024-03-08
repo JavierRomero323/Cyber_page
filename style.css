@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: larger;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.625);
+
+
+}
+a{
+  color:rgb(255, 255, 255);
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 2px;
+  
+  
+}
+a:hover{
+  color: rgb(24, 62, 253);
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bolder;
+}
+p{
+  width: 40%;
+  color: antiquewhite;
+  
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border: currentColor;
+  background-color: rgba(0, 0, 0, 0.578);
+  
+}
+h1{
+  color: rgba(238, 243, 242, 0.971);
+  text-align: center;
+  font-size: 50px;
+  padding: 8px;
+  border: solid black 1px;
+  background-color: rgba(0, 0, 0, 0.461);
+ 
+}
+.hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+
+}
+.column-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+}
+.column-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-image{
+  background-size: contain;
+}
+#Robo4{
+  margin: 5px;
+  text-wrap: 1px;
+}
+.second-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.second-s{
+  margin: 2px;
+}
+
+.wrapper{
+  
+  width: 70%;
+}
+i{
+  font-size: x-large;
+}
+#Robo4{
+  float: left;
+}
+.text-box{
+  color: antiquewhite;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.43);
+}
+footer p{
+  width: 100%;
+}
